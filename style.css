@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+:root{
+ --bg-color : #fff;
+ --text-color : #333;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-image:url(bg.jpg); 
+    text-align: center;
+    color: var(--text-color);
+}
+nav{
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255,0.5);
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    font-size:xx-large;
+    padding: 5px;
+    border-radius: 2rem;
+    border-bottom: 5px solid var(--text-color);
+    margin: 1rem;
+}
+.vakitler{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    background-color: rgba(255, 255, 255,0.5);
+    backdrop-filter: blur(10px);
+    width: 220px;
+    font-size:larger;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 2rem;
+    margin: 10px;
+    font-weight: 700;
+    border-bottom: 5px solid var(--text-color);
+}
+.date{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    width: 150px;
+    border-radius: 1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+}
